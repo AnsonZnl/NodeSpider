@@ -4,12 +4,12 @@
 ```cnpm install request --save```    
 下载cheerio模块 使用它解析DOM 可以把它看成Node 版的jQuery    
 ```cnpm install cheerio --save```    
-## 爬取链家房价
+## 爬取北京链家二手房房价
 ```
 let cheerio= require('cheerio');
 let request= require('request');
 
-var url= 'https://sjz.lianjia.com/ershoufang/'
+var url= 'https://bj.lianjia.com/ershoufang/'
 
 request(url, (error, response, html)=>{
     if(!error && response.statusCode == 200){
@@ -20,7 +20,7 @@ request(url, (error, response, html)=>{
 })
 
 ```
-然后看结果：
+然后看结果：    
 ![61542249002_.pic.jpg](https://upload-images.jianshu.io/upload_images/7072486-b68380368c3fcb89.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
