@@ -28,6 +28,7 @@ request(url, (error, response, html)=>{
 
 
 参考资料：    
-[手把手教你做爬虫---基于NodeJs](https://blog.csdn.net/yezhenxu1992/article/details/50820629)    
+ 
 [cheerio](https://npm.taobao.org/package/cheerio)    
 [request](https://npm.taobao.org/package/request)    
+[手把手教你做爬虫---基于NodeJs](https://blog.csdn.net/yezhenxu1992/article/details/50820629)   
